@@ -1,0 +1,54 @@
+node -v for node version checck in cmd
+
+mongodb download =https://www.mongodb.com/try/download/community
+
+----------------------------------------------------------------------------------------------------------------------
+
+React is a library, not a framework.
+
+Core difference:
+You call a library. A framework calls you.
+
+Library
+A toolbox of functions you use when you want.
+You control the program flow.
+You decide when and where to use it.
+Example: React, Lodash, jQuery
+You write the app, and call the library as needed.
+
+Framework
+A full structure for building applications.
+The framework controls the flow (Inversion of Control).
+You plug your code into predefined places.
+Example: Angular, Django, Spring, Next.js
+The framework runs the app and calls your code.
+-------------------------------------------------------------------------------------------------------------------
+
+npm vs npx
+
+npm: Installs and manages packages.
+npx: Runs packages without installing them globally.
+-------------------------------------------------------------------------------------------------------------------
+
+var let and const 
+var
+Old way to declare variables
+Function-scoped (not block-scoped)
+Can be redeclared and reassigned
+Can cause bugs
+
+let
+Modern way
+Block-scoped ({ })
+Can be reassigned
+Cannot be redeclared in same scope
+
+const
+Modern way
+Block-scoped
+Cannot be reassigned
+Must be given a value when declared
+---------------------------------------------------------------------------------------------------------------------
+
+types of data type-
+immutable   and mutable
