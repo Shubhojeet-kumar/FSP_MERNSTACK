@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function check(){
+      if(document.getElementById("name").value==""){
+        alert("please fill the form");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <form onsubmit="return check()" method="get">
+    <input type="text" name="name" id="name">
+    <input type="submit" value="Click here">
+  </form>
+  
+</body>
+</html>
