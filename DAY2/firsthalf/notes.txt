@@ -1,0 +1,15 @@
+Synchronous (sync):
+Tasks run one by one
+Next task waits for the previous one to finish
+Blocking
+
+Asynchronous (async):
+Tasks run without waiting
+Long tasks run in background
+Non-blocking
+
+A callback function is a function passed as an argument to another function and called later
+function greet(name, callback) {
+    callback(name);
+}
+greet("Alex", console.log);

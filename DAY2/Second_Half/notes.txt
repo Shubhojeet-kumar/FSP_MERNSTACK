@@ -1,0 +1,8 @@
+npm run dev     --> in folder react app
+
+always make component with CAPITAL
+
+
+rfce + enter functional component template automatic
+
+npm i react-router-dom
