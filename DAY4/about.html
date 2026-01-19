@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+
+<style>
+:root {
+    --primary: #0077b6;
+    --dark: #0f172a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f8fafc;
+    color: var(--dark);
+}
+
+/* Navbar */
+nav {
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--dark);
+    margin-left: 25px;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
+
+/* About */
+.about {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.about-card {
+    background: white;
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #475569;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">YourCompany</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<section class="about">
+    <div class="about-card">
+        <h1>Who We Are</h1>
+        <p>
+            We are a focused team driven by design quality, technical precision,
+            and clean user experience.
+        </p>
+        <p>
+            Our philosophy is simple: remove noise, keep what matters,
+            and build products that feel effortless to use.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Your Company Name
+</footer>
+
+</body>
+</html>
